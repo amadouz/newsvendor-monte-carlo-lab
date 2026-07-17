@@ -3,6 +3,8 @@
 Project: *Use Monte Carlo simulation to develop a newsvendor problem application.*
 ISYE 6644, Summer 2026 — Ahmadou Diallo (solo group).
 
+Link : https://newsvendor-simulation.streamlit.app/
+
 ## What's here
 
 - `newsvendor.py` — the simulation engine: demand distributions, the vectorized
