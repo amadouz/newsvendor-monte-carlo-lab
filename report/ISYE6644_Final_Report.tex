@@ -28,7 +28,8 @@
 \noindent\textbf{Project Topic Number:} 18 \quad
 \textbf{Project Group Number:} 132 \\
 \textbf{Team Members:} Ahmadou Diallo (adiallo41) (solo group) \\
-\textbf{Project Title:} A Monte Carlo Simulation Laboratory for the Newsvendor Problem
+\textbf{Project Title:} A Monte Carlo Simulation Laboratory for the Newsvendor Problem \\
+\textbf{Live App:} \url{https://newsvendor-simulation.streamlit.app}
 
 \section*{Abstract}
 The newsvendor problem is the canonical single-period inventory model: choose an order quantity
@@ -89,8 +90,10 @@ For a grid spanning the 0.5th--99.5th demand percentile, the engine reports at e
 mean simulated profit, a 95\% confidence interval ($\pm1.96\cdot\mathrm{SE}$), and the empirical
 service level $P(D\le Q)$; the simulated optimum $\hat{Q}^*$ is the grid's argmax.
 
-The engine is wrapped in a Streamlit app (\texttt{app.py}) meeting the brief's ``pretty and
-interesting to use'' requirement with a real, runnable tool. All economic inputs (price, cost,
+The engine is wrapped in a Streamlit app (\texttt{app.py}), live at the
+\href{https://newsvendor-simulation.streamlit.app}{project's app URL} (see title block), meeting
+the brief's ``pretty and interesting to use'' requirement with a real, runnable tool. All economic
+inputs (price, cost,
 salvage, an optional stockout penalty), the demand distribution and parameters, replication
 count, grid resolution, and random seed are adjustable from a sidebar, and every chart recomputes
 live (cached for repeated inputs). Four tabs organize the output: \textbf{Profit vs.\ order
